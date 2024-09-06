@@ -1,14 +1,14 @@
 export const Bio = {
   name: "Virendra Kate",
   roles: [
-    "Golang | Python Developer"
+    "DevOps Engineer"
 
   ],
   description:
     "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
   github: "https://github.com/Viru9029",
   resume:
-    "https://drive.google.com/file/d/16fZLg3E7ZFS0dxa6UyIHc_-IMF11HuRd/view?usp=sharing",
+    "https://drive.google.com/file/d/1aS87Wbu_4avB3qbzbFYp3ADy3DZG5cAH/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/virendrakate/",
   email:"vbkate9@gmail.com"
 };
@@ -190,7 +190,7 @@ export const experiences = [
   {
     id: 0,
     img: "https://logos-world.net/wp-content/uploads/2020/09/IBM-Symbol.jpg",
-    role: "Python | Golang Developer",
+    role: "DevOps Engineer",
     company: "IBM Cloud, Bengaluru, India",
     date: "Dec 2022 - Present",
     desc: `Project : IaaS Security and Compliance Automation
