@@ -12,13 +12,19 @@ const Projects = ({openModal,setOpenModal}) => {
       <Wrapper>
         <Title>Projects</Title>
         <Desc>
-          I have worked on a wide range of projects. From generative AI to machine learning. Here are some of my projects.
+          I have worked on a wide range of projects. From Golang to generative AI. Here are some of my projects.
         </Desc>
         <ToggleButtonGroup >
           {toggle === 'all' ?
             <ToggleButton active value="all" onClick={() => setToggle('all')}>All</ToggleButton>
             :
             <ToggleButton value="all" onClick={() => setToggle('all')}>All</ToggleButton>
+          }
+          <Divider />
+          {toggle === 'web app' ?
+            <ToggleButton active value="web app" onClick={() => setToggle('web app')}>WEB APP & Golang</ToggleButton>
+            :
+            <ToggleButton value="web app" onClick={() => setToggle('web app')}>WEB APP & Golang</ToggleButton>
           }
           <Divider />
           {toggle === 'generative ai' ?
@@ -31,12 +37,6 @@ const Projects = ({openModal,setOpenModal}) => {
             <ToggleButton active value="machine learning" onClick={() => setToggle('machine learning')}>MACHINE LEARNING</ToggleButton>
             :
             <ToggleButton value="machine learning" onClick={() => setToggle('machine learning')}>MACHINE LEARNING</ToggleButton>
-          }
-          <Divider />
-          {toggle === 'web app' ?
-            <ToggleButton active value="web app" onClick={() => setToggle('web app')}>WEB APP & Golang</ToggleButton>
-            :
-            <ToggleButton value="web app" onClick={() => setToggle('web app')}>WEB APP & Golang</ToggleButton>
           }
 
         </ToggleButtonGroup>

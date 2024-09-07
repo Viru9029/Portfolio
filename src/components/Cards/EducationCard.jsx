@@ -132,7 +132,7 @@ const EducationCard = ({ education }) => {
     return (
         <Card>
             <Top>
-                <Image src={education.img} />
+                <Image src={education.img} alt={education.school} />
                 <Body>
                     <Name>{education.school}</Name>
                     <Degree>{education.degree}</Degree>
@@ -141,10 +141,12 @@ const EducationCard = ({ education }) => {
             </Top>
             <Grade><b>Grade: </b>{education.grade}</Grade>
             <Description>
-                <Span>{education.desc}</Span>
+                {education?.desc &&
+                    <Span dangerouslySetInnerHTML={{ __html: education.desc }} />
+                }
             </Description>
         </Card>
-    )
-}
+    );
+};
 
 export default EducationCard

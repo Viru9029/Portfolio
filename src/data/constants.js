@@ -1,14 +1,14 @@
 export const Bio = {
   name: "Virendra Kate",
   roles: [
-    "DevOps Engineer"
+    "Golang Developer"
 
   ],
   description:
     "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
   github: "https://github.com/Viru9029",
   resume:
-    "https://drive.google.com/file/d/1aS87Wbu_4avB3qbzbFYp3ADy3DZG5cAH/view?usp=sharing",
+    "https://drive.google.com/file/d/1UqS82sJvbxqM9H0TPJO0r1_-mW7i270O/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/virendrakate/",
   email:"vbkate9@gmail.com"
 };
@@ -18,19 +18,29 @@ export const skills = [
     title: "Languages, Frameworks & Database",
     skills: [
       {
-        name: "Python",
-        image:
-        "https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg",
-      },
-      {
         name: "Golang",
         image:
           "https://go.dev/blog/go-brand/Go-Logo/SVG/Go-Logo_Blue.svg",
       },
       {
+        name: "Python",
+        image:
+        "https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg",
+      },
+      {
         name: "SQL",
         image:
           "https://symbols.getvecta.com/stencil_28/61_sql-database-generic.90b41636a8.png",
+      },
+      {
+        name: "MySQL",
+        image:
+          "https://cdn-icons-png.flaticon.com/512/919/919836.png",
+      },
+      {
+        name: "MongoDB",
+        image:
+          "https://w7.pngwing.com/pngs/956/695/png-transparent-mongodb-original-wordmark-logo-icon-thumbnail.png",
       },
       {
         name: "Flask",
@@ -41,22 +51,98 @@ export const skills = [
         image:
           "https://image.spreadshirtmedia.com/image-server/v1/mp/products/T1459A839PA3861PT28D1007202637W10000H3483/views/1,width=800,height=800,appearanceId=839,backgroundColor=F2F2F2/django-logo-sticker.jpg",
       },
-      
-      {
-        name: "MySQL",
-        image:
-          "https://cdn-icons-png.flaticon.com/512/919/919836.png",
-      },
       {
         name: "Oracle",
         image:
           "https://media.licdn.com/dms/image/D5612AQGTzGGnu886Vw/article-cover_image-shrink_720_1280/0/1680581578662?e=2147483647&v=beta&t=Jc3XYEXXsZNfua5Dy96AX17G59H2LrEj4mcGb6rWt60",
       },
+    ],
+  },
+  {
+    title: "Tools and Technologies",
+    skills: [
       {
-        name: "MongoDB",
+        name: "Docker",
         image:
-          "https://w7.pngwing.com/pngs/956/695/png-transparent-mongodb-original-wordmark-logo-icon-thumbnail.png",
+          "https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg",
       },
+      {
+        name: "Kubernetes",
+        image:
+          "https://www.svgrepo.com/show/376331/kubernetes.svg",      
+      },
+      {
+        name: "IBM Cloud",
+        image:
+          "https://logos-world.net/wp-content/uploads/2020/09/IBM-Symbol.jpg",
+      },
+      {
+        name: "Tekton",
+        image:
+          "https://avatars.githubusercontent.com/u/47602533?s=280&v=4",
+      },
+      {
+        name: "Git",
+        image:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Git_icon.svg/1200px-Git_icon.svg.png",
+      },
+      {
+        name: "GitHub",
+        image:
+          "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png",
+      },
+      {
+        name: "VS Code",
+        image:
+          "https://img.icons8.com/?size=48&id=0OQR1FYCuA9f&format=png",
+      },
+      {
+        name: "Postman",
+        image:
+          "https://www.svgrepo.com/show/354202/postman-icon.svg",
+      },
+      {
+        name: "AWS",
+        image:
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/AWS_Simple_Icons_AWS_Cloud.svg/2560px-AWS_Simple_Icons_AWS_Cloud.svg.png",
+      },
+
+    ],
+  },
+  {
+    title: "Engineering Practices",
+    skills: [
+      {
+        name: "CI/CD pipelines",
+        image:
+          "https://www.eficode.com/hs-fs/hubfs/Eficode%202020%20site%20images/Hexagons/CI%20CD%20pipeline%20hexagon-2.png?width=600&name=CI%20CD%20pipeline%20hexagon-2.png",
+      },
+      {
+        name: "Cloud Computing",
+        image:
+          "https://cdn-icons-png.flaticon.com/512/4215/4215831.png",
+      },
+      {
+        name: "Containerization",
+        image:
+          "https://assets-global.website-files.com/62bd9427ec73a11840fe243a/647f308a927f9e56261ca9d7_containerization%20preview.jpeg.jpg",
+      },
+      {
+        name: "Microservices",
+        image:
+          "https://runestone.academy/ns/books/published/py4e-int/_images/web_crawler.png",
+      },
+      {
+        name: "Prompt Engineering",
+        image:
+          "https://businessolution.org/wp-content/uploads/2023/02/Prompt-Engineering.png",
+      },
+      {
+        name: "MLOps principles",
+        image:
+          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFaHxcXLpqrJXKcj_cXcwQQQiBe659hMlLIn6CuHSk0jEQG3VUG_6tG7aArEMhegsFy1I&usqp=CAU",
+      },
+
     ],
   },
   {
@@ -97,143 +183,42 @@ export const skills = [
       },
     ],
   },
-  {
-    title: "Engineering Practices",
-    skills: [
-      {
-        name: "Micro services",
-        image:
-          "https://runestone.academy/ns/books/published/py4e-int/_images/web_crawler.png",
-      },
-      {
-        name: "Prompt Engineering",
-        image:
-          "https://businessolution.org/wp-content/uploads/2023/02/Prompt-Engineering.png",
-      },
-      {
-        name: "MLOps principles",
-        image:
-          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFaHxcXLpqrJXKcj_cXcwQQQiBe659hMlLIn6CuHSk0jEQG3VUG_6tG7aArEMhegsFy1I&usqp=CAU",
-      },
-      {
-        name: "CI/CD pipelines",
-        image:
-          "https://www.eficode.com/hs-fs/hubfs/Eficode%202020%20site%20images/Hexagons/CI%20CD%20pipeline%20hexagon-2.png?width=600&name=CI%20CD%20pipeline%20hexagon-2.png",
-      },
-      {
-        name: "Cloud Computing",
-        image:
-          "https://cdn-icons-png.flaticon.com/512/4215/4215831.png",
-      },
-      {
-        name: "Containerization",
-        image:
-          "https://assets-global.website-files.com/62bd9427ec73a11840fe243a/647f308a927f9e56261ca9d7_containerization%20preview.jpeg.jpg",
-      },
-
-    ],
-  },
-  {
-    title: "Tools and Technologies",
-    skills: [
-      {
-        name: "Git",
-        image:
-            "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Git_icon.svg/1200px-Git_icon.svg.png",
-      },
-      {
-        name: "GitHub",
-        image:
-          "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png",
-      },
-      {
-        name: "Docker",
-        image:
-          "https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg",
-      },
-      {
-        name: "Kubernetes",
-        image:
-          "https://www.svgrepo.com/show/376331/kubernetes.svg",      
-      },
-      {
-        name: "VS Code",
-        image:
-          "https://img.icons8.com/?size=48&id=0OQR1FYCuA9f&format=png",
-      },
-      {
-        name: "Postman",
-        image:
-          "https://www.svgrepo.com/show/354202/postman-icon.svg",
-      },
-      {
-        name: "AWS",
-        image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/AWS_Simple_Icons_AWS_Cloud.svg/2560px-AWS_Simple_Icons_AWS_Cloud.svg.png",
-      },
-      {
-        name: "IBM Cloud",
-        image:
-          "https://logos-world.net/wp-content/uploads/2020/09/IBM-Symbol.jpg",
-      },
-      {
-        name: "Tekton",
-        image:
-          "https://avatars.githubusercontent.com/u/47602533?s=280&v=4",
-      }
-
-    ],
-  },
 ];
 
 export const experiences = [
   {
     id: 0,
     img: "https://logos-world.net/wp-content/uploads/2020/09/IBM-Symbol.jpg",
-    role: "DevOps Engineer",
+    role: "Golang Developer",
     company: "IBM Cloud, Bengaluru, India",
     date: "Dec 2022 - Present",
-    desc: `Project : IaaS Security and Compliance Automation
+    desc: `Project : IaaS Security and Compliance Automation<br>
+    • Designed and developed Cloud-native microservices in Go to automate security compliance checks for applications hosted on IBM Cloud, achieving a 100% audit success rate with zero breaches.<br>
+    • Re-engineered a Python-based project with Go microservices, reducing execution time by 60% and boosting system efficiency.<br>
+    • Implemented multi-threading using goroutines and channels in Go, integrated CI/CD pipelines, and optimized the deployment process, achieving 99.9% uptime and cutting deployment time from 3 days to 2 hours.<br>
+    • Automated manual tasks, optimizing resource utilization, which reduced operational costs by 15% and infrastructure costs by 45% through the implementation of container-based infrastructure with Docker and Kubernetes.<br>
+    • Improved server provisioning by 20%, streamlining maintenance via IBM Cloud Object Storage (COS) buckets.<br>
 
-    • Enhanced infrastructure security and compliance by implementing automated security controls, with a focus on
-    expediting issue resolution through effective debugging techniques and proper logging mechanisms.
-
-    • Developed and implemented multi-threading capabilities in services, optimizing system performance and response
-    times.
-
-    • Conducted 50+ vulnerability assessments, ensuring rigorous adherence to regulatory standards while swiftly
-    capturing errors for prompt resolution.
-
-    • Utilized Python, Go, Django, Docker, Shell Scripting, Tekton, GitHub, Agile Methodologies, and more to lead
-    projects, showcasing diverse technology expertise in debugging and error resolution.
-
-    • Implemented CI/CD pipelines to enhance system reliability, achieving a remarkable uptime of 99.9%.
-
-    • Reduced operational costs by 15% through the development of scripts automating manual tasks and integrating
-    proper logging mechanisms for early error detection.
-
-    • Automated server provisioning, resulting in a 20% faster deployment process and simplified maintenance, while
-    leveraging IBM COS bucket for multiple purposes.
-
-    • Leveraged container-based infrastructure to optimize resource utilization, reducing infrastructure costs by 45%.
-
-    • Facilitated adherence to regulatory requirements, achieving a 100% successful audit rate.
-
-    • Implemented threat detection mechanisms, ensuring zero security breaches by effectively mitigating risks.
-
-    • Successfully streamlined the deployment process for a major application, reducing deployment time from 3 days to
-    just 2 hours.`,
+    KEY RESPONSIBILITIES :<br>
+    • Design and develop cloud-native applications with Golang, Docker, and Kubernetes for scalable solutions.<br>
+    • Collaborate with teams to integrate microservices and RESTful APIs, ensuring smooth deployments through CI/CD pipelines.<br>
+    • Conduct code reviews, provide feedback, and uphold coding standards for high-quality code.<br>
+    • Troubleshoot production issues, optimizing for performance, scalability, and security.<br>
+    • Attend meetings to gather requirements, create implementation plans, and communicate technical details.<br>
+    • Document workflows, code execution, and system architecture for clarity and knowledge sharing.<br>
+    • Use JIRA for issue tracking and Git for version control to facilitate development.<br>
+    • Implement logging and monitoring with IBM Log Analysis with LogDNA for effective observability.<br>
+    • Apply Agile methodologies (Scrum/Kanban) for project management.<br>`,
     skills: [
-      "Python",
       "Golang",
-      "CI/CD",
-      "Microservices",
       "Docker",
       "Kubernetes",
-      "Shell Scripting",
+      "IBM Cloud",
+      "CI/CD",
       "Tekton",
-      "Django",
-      "IBM Cloud"
+      "Microservices",
+      "Shell Scripting",
+      "Python"
     ],
     doc: "",
   }
@@ -248,7 +233,10 @@ export const education = [
     school: "Centre for Development of Advanced Computing (C-DAC), Noida",
     date: "Mar 2022 - Sep 2022",
     grade: "Distinction",
-    desc: "I hold a Post Graduate Diploma in Artificial Intelligence from CDAC Noida, where I excelled with distinction. Throughout the program, I gained expertise in Python, data analytics, machine learning, deep learning, natural language processing, cloud computing, Docker, Kubernetes, statistics, and Jenkins for CI/CD. Hands-on projects and collaborative efforts refined my problem-solving abilities and communication skills. I'm passionate about leveraging AI to innovate and tackle real-world challenges",
+    desc: `I hold a Post Graduate Diploma in Artificial Intelligence from CDAC Noida, where I excelled with distinction.<br>
+    Throughout the program, I gained expertise in Python, data analytics, machine learning, deep learning, natural language processing, cloud computing, Docker, Kubernetes, statistics, and Jenkins for CI/CD.<br>
+    Hands-on projects and collaborative efforts refined my problem-solving abilities and communication skills.<br>
+    I'm passionate about leveraging AI to innovate and tackle real-world challenges.<br>`,
     degree: "PG Diploma in Artificial Intelligence",
   },
   {
