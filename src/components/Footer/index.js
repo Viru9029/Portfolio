@@ -100,7 +100,7 @@ function Footer() {
           <SocialMediaIcon href={Bio.github} target="display"><GitHubIcon /></SocialMediaIcon>
         </SocialMediaIcons>
         <Copyright>
-          &copy; 2024 Virendra Kate. All rights reserved.
+          &copy; 2025 Virendra Kate. All rights reserved.
         </Copyright>
 
       </FooterWrapper>
