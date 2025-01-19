@@ -1,7 +1,7 @@
 export const Bio = {
   name: "Virendra Kate",
   roles: [
-    "Golang Developer"
+    "Cloud Software Engineer (Golang)"
 
   ],
   description:
@@ -189,7 +189,7 @@ export const experiences = [
   {
     id: 0,
     img: "https://logos-world.net/wp-content/uploads/2020/09/IBM-Symbol.jpg",
-    role: "Golang Developer",
+    role: "Cloud Software Engineer",
     company: "IBM Cloud, Bengaluru, India",
     date: "Dec 2022 - Present",
     desc: `Project : IaaS Security and Compliance Automation<br>
