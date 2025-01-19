@@ -1,11 +1,11 @@
 export const Bio = {
   name: "Virendra Kate",
   roles: [
-    "Cloud Software Engineer (Golang)"
+    "Cloud Software Engineer (Golang) at IBM Cloud"
 
   ],
   description:
-    "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
+    "I am a passionate and versatile engineer specializing in Golang development and cloud-native solutions. With a growth mindset and a commitment to delivering high-quality results, I thrive on tackling challenges, learning continuously, and making meaningful contributions to impactful projects. My expertise in Docker, Kubernetes, and CI/CD pipelines ensures scalable and efficient solutions for modern cloud applications.",
   github: "https://github.com/Viru9029",
   resume:
     "https://drive.google.com/file/d/1UqS82sJvbxqM9H0TPJO0r1_-mW7i270O/view?usp=sharing",
