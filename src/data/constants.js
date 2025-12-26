@@ -103,14 +103,14 @@ export const experiences = [
 export const education = [
   {
     id: 0,
-    img: "public/images/cdac-logo.avif",
+    img: "/images/cdac-logo.avif",
     school: "Centre for Development of Advanced Computing (C-DAC), Noida",
     date: "2022",
     degree: "PG Diploma in Artificial Intelligence",
   },
   {
     id: 1,
-    img: "public/images/sppu-logo.png",
+    img: "/images/sppu-logo.png",
     school: "Savitribai Phule Pune University",
     date: "2018 - 2021",
     degree: "Bachelor of Engineering",
