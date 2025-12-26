@@ -36,20 +36,28 @@ export const skills = [
     skills: [
       { name: "IBM Cloud", image: "https://upload.wikimedia.org/wikipedia/commons/5/51/IBM_logo.svg" },
       { name: "Kubernetes", image: "https://www.svgrepo.com/show/376331/kubernetes.svg" },
-      { name: "OpenShift (ROKS)", image: "https://www.vectorlogo.zone/logos/openshift/openshift-icon.svg" },
+
+      /* ✅ Use your local logos */
+      { name: "OpenShift (ROKS)", image: "/images/openshift-logo.png" },
       { name: "Docker", image: "https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg" },
-      { name: "IBM OnePipeline", image: "https://upload.wikimedia.org/wikipedia/commons/5/51/IBM_logo.svg" },
-      { name: "Tekton", image: "public/images/ibm-onepipeline-logo.jpg" },
+      { name: "IBM OnePipeline", image: "/images/ibm-onepipeline-logo.jpg" },
+
+      /* ✅ Tekton logo should NOT use public/... */
+      { name: "Tekton", image: "https://raw.githubusercontent.com/cncf/artwork/master/projects/tekton/icon/color/tekton-icon-color.svg" },
+
       { name: "Jenkins", image: "https://www.svgrepo.com/show/353929/jenkins.svg" },
-      { name: "PagerDuty", image: "https://www.vectorlogo.zone/logos/pagerduty/pagerduty-icon.svg" },
+      { name: "PagerDuty", image: "/images/pagerduty-logo.png" },
     ],
   },
   {
     title: "Observability & Security",
     skills: [
-      { name: "Sysdig", image: "https://avatars.githubusercontent.com/u/31815447?s=280&v=4" },
-      { name: "LogDNA", image: "https://avatars.githubusercontent.com/u/34378917?s=280&v=4" },
+      { name: "Sysdig", image: "/images/sysdig-logo.png" },
+      { name: "LogDNA", image: "/images/logdna_logo.png" },
+
+      /* Ospray logo not present in your folder → keep IBM logo */
       { name: "Ospray", image: "https://upload.wikimedia.org/wikipedia/commons/5/51/IBM_logo.svg" },
+
       { name: "RBAC", image: "https://cdn-icons-png.flaticon.com/512/942/942751.png" },
       { name: "JWT", image: "https://jwt.io/img/logo.svg" },
       { name: "PAG", image: "https://cdn-icons-png.flaticon.com/512/2917/2917990.png" },
@@ -90,7 +98,9 @@ export const experiences = [
   },
   {
     id: 2,
-    img: "https://cdn-icons-png.flaticon.com/512/1995/1995470.png",
+
+    /* ✅ Use your local SJ logo */
+    img: "/images/sj-logo.png",
     role: "Junior Engineer",
     company: "SJ Contracts Pvt Ltd, Pune, India",
     date: "Dec 2020 - Aug 2021",
@@ -103,7 +113,9 @@ export const experiences = [
 export const education = [
   {
     id: 0,
-    img: "/images/cdac-logo.avif",
+
+    /* ✅ Use JPG (more compatible than AVIF) */
+    img: "/images/cdac-logo.jpg",
     school: "Centre for Development of Advanced Computing (C-DAC), Noida",
     date: "2022",
     degree: "PG Diploma in Artificial Intelligence",
@@ -135,7 +147,7 @@ export const projects = [
     title: "WeatherSnap",
     description: "React-based real-time weather application.",
     image: "https://img.pikbest.com/templates/20211121/bg/0e1b29f5c2423708338dd4e3a17f35eb_117851.png",
-    tags: ["React", "API"],
+    tags: ["React", "API", "Github", "Google Auth"],
     category: "web app",
     github: "https://github.com/Viru9029/WeatherSnap",
     webapp: "https://viru9029.github.io/WeatherSnap/",
@@ -145,36 +157,42 @@ export const projects = [
     title: "BrainHealth-AI",
     description: "Deep learning system for brain tumor detection.",
     image: "https://assets.technologynetworks.com/production/dynamic/images/content/354432/early-detection-of-brain-tumors-and-beyond-354432-960x540.jpg",
-    tags: ["Python", "Deep Learning", "Keras"],
+    tags: ["Python", "Deep Learning", "VGG16", "Keras", "Image Classification", "Flask"],
     category: "machine learning",
     github: "https://github.com/Viru9029/BrainHealth-AI",
+    webapp: "https://github.com/Viru9029/BrainHealth-AI",
   },
   {
     id: 3,
-    title: "AI-Based Humanoid Broadcaster",
+    title: "AI-Based-Humanoid-Broadcaster",
     description: "NLP-based AI system to generate summarized news broadcasts.",
     image: "https://img.freepik.com/premium-vector/live-news-cartoon-tv-broadcast-sport-fans-journalist-interview-television-media-studio-breaking-reporting-about-protest-utter-vector-concept_53562-17056.jpg",
-    tags: ["Python", "NLP", "BERT"],
+    tags: ["Python", "NLP", "Pytorch", "Keras", "BERT", "Flask"],
     category: "machine learning",
     github: "https://github.com/Viru9029/AI-Based-Humanoid-Broadcaster",
+    webapp: "https://github.com/Viru9029/AI-Based-Humanoid-Broadcaster",
   },
   {
     id: 7,
-    title: "CareerFit Analyzer",
-    description: "Generative AI tool for ATS scoring and resume analysis.",
-    image: "https://builtin.com/sites/www.builtin.com/files/styles/byline_image/public/2023-08/ai-assistant_0.jpg",
-    tags: ["Python", "Generative AI", "Streamlit"],
+    title: "CareerFit-Analyzer",
+    description:
+      "Generative AI solution featuring ATS checks, resume analysis, and chat with PDF to improve job applications.",
+    image: "https://builtin.com/cdn-cgi/image/f=auto,quality=80,width=752,height=435/https://builtin.com/sites/www.builtin.com/files/styles/byline_image/public/2023-08/ai-assistant_0.jpg",
+    tags: ["Python", "Google Gemini", "Generative AI", "Streamlit", "SqlLite", "Langchain", "NLP"],
     category: "generative ai",
     github: "https://github.com/Viru9029/CareerFit-Analyzer",
+    webapp: "https://github.com/Viru9029/CareerFit-Analyzer",
   },
   {
     id: 2,
-    title: "Footwear E-Commerce",
-    description: "Golang backend APIs for an e-commerce platform.",
+    title: "Footware-E-Commerce",
+    description:
+      "Golang backend APIs for an e-commerce platform built using Gin with authentication and MongoDB.",
     image: "https://indian-retailer.s3.ap-south-1.amazonaws.com/s3fs-public/article5066.jpg",
-    tags: ["Golang", "Gin", "MongoDB"],
+    tags: ["Golang", "Gin Framework", "API Development", "Authentication", "MongoDB"],
     category: "web app",
     github: "https://github.com/Viru9029/Footware-E-Commerce",
+    webapp: "https://github.com/Viru9029/Footware-E-Commerce",
   },
 ];
 
