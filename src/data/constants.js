@@ -68,7 +68,7 @@ export const skills = [
       },
       {
         name: "OpenShift (ROKS)",
-        image: "https://www.svgrepo.com/show/354467/openshift.svg",
+        image: "https://drive.google.com/file/d/1dsGxcPvJxRCWdQchb8dObyw9_3gr9lyV/view?usp=sharing",
       },
       {
         name: "Docker",
@@ -77,7 +77,7 @@ export const skills = [
       },
       {
         name: "IBM OnePipeline",
-        image: "https://upload.wikimedia.org/wikipedia/commons/3/3f/IBM_logo.svg",
+        image: "https://drive.google.com/file/d/1x07lH4Vj7xmfRgJpjlOHLd4oVWKpM9mI/view?usp=sharing",
       },
       {
         name: "Tekton",
@@ -99,16 +99,16 @@ export const skills = [
     skills: [
       {
         name: "Sysdig",
-        image: "https://avatars.githubusercontent.com/u/31815447?s=280&v=4",
+        image: "https://drive.google.com/file/d/1tdJHeyQ8fVCVpq2UDQ-R6oKvImUlv9TY/view?usp=sharing",
       },
       {
         name: "LogDNA",
-        image: "https://avatars.githubusercontent.com/u/34378917?s=280&v=4",
+        image: "https://drive.google.com/file/d/1ymj0iKOWsoZRGLQUj3k-9wwtTjF9D2Lh/view?usp=sharing",
       },
       {
         name: "Ospray",
         image:
-          "https://www.ibm.com/content/dam/adobe-cms/solutions/it-automation/images/ospray.svg",
+          "https://drive.google.com/file/d/1x07lH4Vj7xmfRgJpjlOHLd4oVWKpM9mI/view?usp=sharing",
       },
       {
         name: "RBAC",
