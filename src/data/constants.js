@@ -1,9 +1,7 @@
 export const Bio = {
   name: "Virendra Kate",
   roles: [
-    "Experienced Golang Developer (3+ years)",
-    "Cloud Software Engineer – IBM Cloud PaaS",
-    "Kubernetes / OpenShift (ROKS) Platform Automation",
+    "Cloud Software Engineer at IBM | Ex-ICS",
   ],
   description:
     "Experienced Golang Developer with 3+ years of experience building and operating cloud-native applications and IBM Cloud PaaS services. Proven expertise in Golang microservices, REST/gRPC APIs (35+), and platform automation on Kubernetes/OpenShift (ROKS). Strong background in CI/CD automation using IBM OnePipeline, Mend security scanning, observability, zero-downtime deployments, worker node orchestration, cluster health monitoring, and security/compliance automation. Actively involved in 24×7 SRE/on-call operations and PagerDuty.",
