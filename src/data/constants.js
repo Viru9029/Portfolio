@@ -174,7 +174,7 @@ export const experiences = [
 export const education = [
   {
     id: 0,
-    img: "https://cdac.in/img/C-DAC.jpg",
+    img: "https://drive.google.com/file/d/1dex4DKP_a89zSECkgzrRhz5qoPL_Ab7i/view?usp=sharing",
     school: "Centre for Development of Advanced Computing (C-DAC), Noida",
     date: "Mar 2022 - Sep 2022",
     grade: "Distinction",
@@ -183,7 +183,7 @@ export const education = [
   },
   {
     id: 1,
-    img: "https://prolearnindia.com/wp-content/uploads/2023/03/3-4.jpg",
+    img: "https://drive.google.com/file/d/1gZsXGyTPm0-JLxOk37cPO7iUJifD1otD/view?usp=sharing",
     school: "Savitribai Phule Pune University",
     date: "Jun 2018 - Jun 2021",
     grade: "First Class",
