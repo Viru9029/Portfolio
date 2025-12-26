@@ -39,7 +39,7 @@ export const skills = [
       { name: "OpenShift (ROKS)", image: "https://www.vectorlogo.zone/logos/openshift/openshift-icon.svg" },
       { name: "Docker", image: "https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg" },
       { name: "IBM OnePipeline", image: "https://upload.wikimedia.org/wikipedia/commons/5/51/IBM_logo.svg" },
-      { name: "Tekton", image: "https://raw.githubusercontent.com/cncf/artwork/master/projects/tekton/icon/color/tekton-icon-color.svg" },
+      { name: "Tekton", image: "public/images/ibm-onepipeline-logo.jpg" },
       { name: "Jenkins", image: "https://www.svgrepo.com/show/353929/jenkins.svg" },
       { name: "PagerDuty", image: "https://www.vectorlogo.zone/logos/pagerduty/pagerduty-icon.svg" },
     ],
@@ -103,14 +103,14 @@ export const experiences = [
 export const education = [
   {
     id: 0,
-    img: "https://cdac.in/img/C-DAC.jpg",
+    img: "public/images/cdac-logo.avif",
     school: "Centre for Development of Advanced Computing (C-DAC), Noida",
     date: "2022",
     degree: "PG Diploma in Artificial Intelligence",
   },
   {
     id: 1,
-    img: "https://upload.wikimedia.org/wikipedia/en/7/7e/Savitribai_Phule_Pune_University_logo.png",
+    img: "public/images/sppu-logo.png",
     school: "Savitribai Phule Pune University",
     date: "2018 - 2021",
     degree: "Bachelor of Engineering",
