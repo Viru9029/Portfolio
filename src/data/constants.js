@@ -1,5 +1,5 @@
+const publicUrl = process.env.PUBLIC_URL || "";
 /* ================= BIO ================= */
-
 export const Bio = {
   name: "Virendra Kate",
   roles: [
@@ -38,22 +38,22 @@ export const skills = [
       { name: "Kubernetes", image: "https://www.svgrepo.com/show/376331/kubernetes.svg" },
 
       /* ✅ Use your local logos */
-      { name: "OpenShift (ROKS)", image: "/images/openshift-logo.png" },
+      { name: "OpenShift (ROKS)", image: `${publicUrl}/images/openshift-logo.jpg` },
       { name: "Docker", image: "https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg" },
-      { name: "IBM OnePipeline", image: "/images/ibm-onepipeline-logo.jpg" },
+      { name: "IBM OnePipeline", image: `${publicUrl}/images/ibm-onepipeline-logo.jpg` },
 
       /* ✅ Tekton logo should NOT use public/... */
       { name: "Tekton", image: "https://raw.githubusercontent.com/cncf/artwork/master/projects/tekton/icon/color/tekton-icon-color.svg" },
 
       { name: "Jenkins", image: "https://www.svgrepo.com/show/353929/jenkins.svg" },
-      { name: "PagerDuty", image: "/images/pagerduty-logo.png" },
+      { name: "PagerDuty", image: `${publicUrl}/images/pagerduty-logo.jpg` },
     ],
   },
   {
     title: "Observability & Security",
     skills: [
-      { name: "Sysdig", image: "/images/sysdig-logo.png" },
-      { name: "LogDNA", image: "/images/logdna_logo.png" },
+      { name: "Sysdig", `${publicUrl}/images/sysdig-logo.jpg` },
+      { name: "LogDNA", `${publicUrl}/images/logdna_logo.jpg` },
 
       /* Ospray logo not present in your folder → keep IBM logo */
       { name: "Ospray", image: "https://upload.wikimedia.org/wikipedia/commons/5/51/IBM_logo.svg" },
@@ -98,9 +98,7 @@ export const experiences = [
   },
   {
     id: 2,
-
-    /* ✅ Use your local SJ logo */
-    img: "/images/sj-logo.png",
+    img: `${publicUrl}/images/sj-logo.jpg`,
     role: "Junior Engineer",
     company: "SJ Contracts Pvt Ltd, Pune, India",
     date: "Dec 2020 - Aug 2021",
@@ -113,16 +111,14 @@ export const experiences = [
 export const education = [
   {
     id: 0,
-
-    /* ✅ Use JPG (more compatible than AVIF) */
-    img: "/images/cdac-logo.jpg",
+    img: `${publicUrl}/images/cdac-logo.jpg`,
     school: "Centre for Development of Advanced Computing (C-DAC), Noida",
     date: "2022",
     degree: "PG Diploma in Artificial Intelligence",
   },
   {
     id: 1,
-    img: "/images/sppu-logo.png",
+    img: `${publicUrl}/images/sppu-logo.jpg`,
     school: "Savitribai Phule Pune University",
     date: "2018 - 2021",
     degree: "Bachelor of Engineering",
