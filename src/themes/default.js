@@ -6,15 +6,15 @@ export default {
     },
     // Colors for layout
     colors: {
-      primary1: "#854CE6",
-      background1: "#222A35",
-      button: "#854CE6",
-      background2: "#19212C",
-      text: "#C8CFD8",
-      text1: "#F2F5F7",
-      text2: "#626970",
-      text3: "#575C66",
-      footerBackground: "#00012B"
+      primary1: "#2563EB",        // primary accent (blue)
+      background1: "#F7F8FC",     // main page background
+      background2: "#FFFFFF",     // cards/sections background
+      button: "#2563EB",          // buttons
+      text: "#0F172A",            // primary text
+      text1: "#111827",           // headings
+      text2: "#475569",           // secondary text
+      text3: "#64748B",           // muted text
+      footerBackground: "#0B1220" // footer bg (dark for contrast)
     },
     // Breakpoints for responsive design
     breakpoints: {
