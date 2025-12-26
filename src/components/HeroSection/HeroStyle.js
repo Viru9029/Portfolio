@@ -113,36 +113,25 @@ export const Img = styled.img`
 `;
 
 export const Title = styled.div`
+  font-family: var(--font-heading);
   font-weight: 700;
-  font-size: 50px;
+  font-size: clamp(36px, 4vw, 56px);
+  line-height: 1.15;
   color: ${({ theme }) => theme.text_primary};
-  line-height: 68px;
-  @media (max-width: 960px) {
-    text-align: center;
-  }
 
-  @media (max-width: 640px) {
-    font-size: 40px;
-    line-height: 48px;
-    margin-bottom: 8px;
-  }
+  @media (max-width: 960px) { text-align: center; }
 `;
 
 export const TextLoop = styled.div`
+  font-family: var(--font-heading);
   font-weight: 600;
-  font-size: 32px;
+  font-size: clamp(20px, 2.4vw, 34px);
   display: flex;
   gap: 12px;
-  color: ${({ theme }) => theme.text_primary};
-  line-height: 68px;
-  @media (max-width: 960px) {
-    text-align: center;
-  }
-  @media (max-width: 640px) {
-    font-size: 22px;
-    line-height: 48px;
-    margin-bottom: 16px;
-  }
+  color: ${({ theme }) => theme.primary};
+  line-height: 1.25;
+
+  @media (max-width: 960px) { justify-content: center; }
 `;
 
 export const Span = styled.span`
@@ -190,7 +179,8 @@ export const ResumeButton = styled.a`
     &:hover {
         transform: scale(1.05);
     transition: all 0.4s ease-in-out;
-    box-shadow:  20px 20px 60px #1F2634,
+    box-shadow: ${({ theme }) => theme.shadow};
+    border: 1px solid ${({ theme }) => theme.border};
     filter: brightness(1);
     }    
     

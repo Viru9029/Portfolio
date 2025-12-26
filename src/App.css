@@ -1,11 +1,24 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap');
+
+:root{
+  --font-body: "Plus Jakarta Sans", system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+  --font-heading: "Space Grotesk", var(--font-body);
+
+  /* Base sizes */
+  --text-base: 16px;
+  --text-sm: 14px;
+  --text-lg: 18px;
+
+  /* Useful radius */
+  --radius-md: 14px;
+  --radius-lg: 18px;
+}
 
 *{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    font-family: 'Poppins', sans-serif;
-    
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: var(--font-body);
 }
 
 html{
@@ -13,29 +26,48 @@ html{
 }
 
 body{
-  margin: 0px !important;
-  padding: 0;
-  font-family: 'Montserrat', sans-serif;
+  margin: 0 !important;
+  font-size: var(--text-base);
+  line-height: 1.65;
+  letter-spacing: 0.2px;
+
+  /* Optional: makes text look smoother */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
-/* width */
-::-webkit-scrollbar {
-    width: 4px;
-    height: 80px;
-  }
-  
-  /* Track */
-  ::-webkit-scrollbar-track {
-    background:#222A35;
-  }
-  
-  /* Handle */
-  ::-webkit-scrollbar-thumb {
-    background: #575C66;
-    border-radius: 6px;
-  }
-  
-  /* Handle on hover */
-  ::-webkit-scrollbar-thumb:hover {
-    background: #626970;
-  }
+/* Headings default style (helps if any headings are plain HTML tags) */
+h1, h2, h3, h4, h5, h6{
+  font-family: var(--font-heading);
+  letter-spacing: 0.2px;
+  line-height: 1.2;
+}
+
+a{
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Nice selection */
+::selection{
+  background: rgba(124, 58, 237, 0.18);
+}
+
+/* Scrollbar (Light) */
+::-webkit-scrollbar{
+  width: 6px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track{
+  background: #F1F5F9;
+}
+
+::-webkit-scrollbar-thumb{
+  background: #CBD5E1;
+  border-radius: 999px;
+}
+
+::-webkit-scrollbar-thumb:hover{
+  background: #94A3B8;
+}

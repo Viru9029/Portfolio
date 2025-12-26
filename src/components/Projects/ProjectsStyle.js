@@ -28,7 +28,8 @@ export const Wrapper = styled.div`
 `;
 
 export const Title = styled.div`
-font-size: 42px;
+font-size: clamp(28px, 3vw, 44px);
+font-family: var(--font-heading);
 text-align: center;
 font-weight: 600;
 margin-top: 20px;
