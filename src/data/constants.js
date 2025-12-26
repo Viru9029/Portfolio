@@ -37,19 +37,19 @@ export const skills = [
     skills: [
       { name: "IBM Cloud", image: "https://upload.wikimedia.org/wikipedia/commons/5/51/IBM_logo.svg" },
       { name: "Kubernetes", image: "https://www.svgrepo.com/show/376331/kubernetes.svg" },
-      { name: "OpenShift (ROKS)", image: `${publicUrl}/images/openshift-logo.png` },
+      { name: "OpenShift (ROKS)", image: `${publicUrl}/images/openshift-logo.jpg` },
       { name: "Docker", image: "https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg" },
       { name: "IBM OnePipeline", image: "https://upload.wikimedia.org/wikipedia/commons/5/51/IBM_logo.svg" },
-      { name: "Tekton", image: "https://raw.githubusercontent.com/cncf/artwork/master/projects/tekton/icon/color/tekton-icon-color.svg" },
+      { name: "Tekton", image: `${publicUrl}/images/ibm-onepipeline-logo.jpg` },
       { name: "Jenkins", image: "https://www.svgrepo.com/show/353929/jenkins.svg" },
-      { name: "PagerDuty", image: `${publicUrl}/images/pagerduty-logo.png` },
+      { name: "PagerDuty", image: `${publicUrl}/images/pagerduty-logo.jpg` },
     ],
   },
   {
     title: "Observability & Security",
     skills: [
-      { name: "Sysdig", image: `${publicUrl}/images/sysdig-logo.png` },
-      { name: "LogDNA", image: `${publicUrl}/images/logdna-logo.png` },
+      { name: "Sysdig", image: `${publicUrl}/images/sysdig-logo.jpg` },
+      { name: "LogDNA", image: `${publicUrl}/images/logdna-logo.jpg` },
       { name: "Ospray", image: "https://upload.wikimedia.org/wikipedia/commons/5/51/IBM_logo.svg" },
       { name: "RBAC", image: "https://cdn-icons-png.flaticon.com/512/942/942751.png" },
       { name: "JWT", image: "https://jwt.io/img/logo.svg" },
@@ -91,7 +91,7 @@ export const experiences = [
   },
   {
     id: 2,
-    img: `${publicUrl}/images/sj-logo.png`,
+    img: `${publicUrl}/images/sj-logo.jpg`,
     role: "Junior Engineer",
     company: "SJ Contracts Pvt Ltd, Pune, India",
     date: "Dec 2020 - Aug 2021",
@@ -104,14 +104,14 @@ export const experiences = [
 export const education = [
   {
     id: 0,
-    img: `${publicUrl}/images/cdac-logo.png`,
+    img: `${publicUrl}/images/cdac-logo.jpg`,
     school: "Centre for Development of Advanced Computing (C-DAC), Noida",
     date: "2022",
     degree: "PG Diploma in Artificial Intelligence",
   },
   {
     id: 1,
-    img: `${publicUrl}/images/sppu-logo.png`,
+    img: `${publicUrl}/images/sppu-logo.jpg`,
     school: "Savitribai Phule Pune University",
     date: "2018 - 2021",
     degree: "Bachelor of Engineering",
