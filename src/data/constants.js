@@ -1,5 +1,7 @@
 const publicUrl = process.env.PUBLIC_URL || "";
+
 /* ================= BIO ================= */
+
 export const Bio = {
   name: "Virendra Kate",
   roles: [
@@ -10,8 +12,7 @@ export const Bio = {
   description:
     "Experienced Golang Developer with 3+ years of experience building and operating cloud-native applications and IBM Cloud PaaS services. Proven expertise in Golang microservices, REST/gRPC APIs (35+), and platform automation on Kubernetes/OpenShift (ROKS). Strong background in CI/CD automation using IBM OnePipeline, security scanning, observability, zero-downtime deployments, worker node orchestration, cluster health monitoring, and compliance automation. Actively involved in 24×7 SRE/on-call operations and PagerDuty.",
   github: "https://github.com/Viru9029",
-  resume:
-    "https://drive.google.com/file/d/1UqS82sJvbxqM9H0TPJO0r1_-mW7i270O/view",
+  resume: "https://drive.google.com/file/d/1UqS82sJvbxqM9H0TPJO0r1_-mW7i270O/view",
   linkedin: "https://www.linkedin.com/in/virendrakate/",
   email: "vbkate9@gmail.com",
 };
@@ -36,28 +37,20 @@ export const skills = [
     skills: [
       { name: "IBM Cloud", image: "https://upload.wikimedia.org/wikipedia/commons/5/51/IBM_logo.svg" },
       { name: "Kubernetes", image: "https://www.svgrepo.com/show/376331/kubernetes.svg" },
-
-      /* ✅ Use your local logos */
-      { name: "OpenShift (ROKS)", image: `${publicUrl}/images/openshift-logo.jpg` },
+      { name: "OpenShift (ROKS)", image: `${publicUrl}/images/openshift-logo.png` },
       { name: "Docker", image: "https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg" },
-      { name: "IBM OnePipeline", image: `${publicUrl}/images/ibm-onepipeline-logo.jpg` },
-
-      /* ✅ Tekton logo should NOT use public/... */
+      { name: "IBM OnePipeline", image: "https://upload.wikimedia.org/wikipedia/commons/5/51/IBM_logo.svg" },
       { name: "Tekton", image: "https://raw.githubusercontent.com/cncf/artwork/master/projects/tekton/icon/color/tekton-icon-color.svg" },
-
       { name: "Jenkins", image: "https://www.svgrepo.com/show/353929/jenkins.svg" },
-      { name: "PagerDuty", image: `${publicUrl}/images/pagerduty-logo.jpg` },
+      { name: "PagerDuty", image: `${publicUrl}/images/pagerduty-logo.png` },
     ],
   },
   {
     title: "Observability & Security",
     skills: [
-      { name: "Sysdig", `${publicUrl}/images/sysdig-logo.jpg` },
-      { name: "LogDNA", `${publicUrl}/images/logdna_logo.jpg` },
-
-      /* Ospray logo not present in your folder → keep IBM logo */
+      { name: "Sysdig", image: `${publicUrl}/images/sysdig-logo.png` },
+      { name: "LogDNA", image: `${publicUrl}/images/logdna-logo.png` },
       { name: "Ospray", image: "https://upload.wikimedia.org/wikipedia/commons/5/51/IBM_logo.svg" },
-
       { name: "RBAC", image: "https://cdn-icons-png.flaticon.com/512/942/942751.png" },
       { name: "JWT", image: "https://jwt.io/img/logo.svg" },
       { name: "PAG", image: "https://cdn-icons-png.flaticon.com/512/2917/2917990.png" },
@@ -98,11 +91,11 @@ export const experiences = [
   },
   {
     id: 2,
-    img: `${publicUrl}/images/sj-logo.jpg`,
+    img: `${publicUrl}/images/sj-logo.png`,
     role: "Junior Engineer",
     company: "SJ Contracts Pvt Ltd, Pune, India",
     date: "Dec 2020 - Aug 2021",
-    desc: `• Assisted in engineering project execution, site coordination, and technical documentation.`,
+    desc: "Assisted in engineering project execution, site coordination, and technical documentation.",
   },
 ];
 
@@ -111,14 +104,14 @@ export const experiences = [
 export const education = [
   {
     id: 0,
-    img: `${publicUrl}/images/cdac-logo.jpg`,
+    img: `${publicUrl}/images/cdac-logo.png`,
     school: "Centre for Development of Advanced Computing (C-DAC), Noida",
     date: "2022",
     degree: "PG Diploma in Artificial Intelligence",
   },
   {
     id: 1,
-    img: `${publicUrl}/images/sppu-logo.jpg`,
+    img: `${publicUrl}/images/sppu-logo.png`,
     school: "Savitribai Phule Pune University",
     date: "2018 - 2021",
     degree: "Bachelor of Engineering",
@@ -131,7 +124,7 @@ export const projects = [
   {
     id: 6,
     title: "SkinVision App",
-    description: "AI-powered Streamlit app for skin disease detection with diagnosis guidance.",
+    description: "AI-powered Streamlit app for skin disease detection.",
     image: "https://www.dermengine.com/hs-fs/hubfs/DE%20Blog%20CTA%20Articles/DermEngine%20Evolution%20Tracker%20Doctor.png",
     tags: ["Python", "Streamlit", "Deep Learning", "Generative AI"],
     category: "generative ai",
@@ -143,7 +136,7 @@ export const projects = [
     title: "WeatherSnap",
     description: "React-based real-time weather application.",
     image: "https://img.pikbest.com/templates/20211121/bg/0e1b29f5c2423708338dd4e3a17f35eb_117851.png",
-    tags: ["React", "API", "Github", "Google Auth"],
+    tags: ["React", "API"],
     category: "web app",
     github: "https://github.com/Viru9029/WeatherSnap",
     webapp: "https://viru9029.github.io/WeatherSnap/",
@@ -153,42 +146,36 @@ export const projects = [
     title: "BrainHealth-AI",
     description: "Deep learning system for brain tumor detection.",
     image: "https://assets.technologynetworks.com/production/dynamic/images/content/354432/early-detection-of-brain-tumors-and-beyond-354432-960x540.jpg",
-    tags: ["Python", "Deep Learning", "VGG16", "Keras", "Image Classification", "Flask"],
+    tags: ["Python", "Deep Learning", "Keras"],
     category: "machine learning",
     github: "https://github.com/Viru9029/BrainHealth-AI",
-    webapp: "https://github.com/Viru9029/BrainHealth-AI",
   },
   {
     id: 3,
-    title: "AI-Based-Humanoid-Broadcaster",
-    description: "NLP-based AI system to generate summarized news broadcasts.",
+    title: "AI-Based Humanoid Broadcaster",
+    description: "NLP-based AI system for news summarization.",
     image: "https://img.freepik.com/premium-vector/live-news-cartoon-tv-broadcast-sport-fans-journalist-interview-television-media-studio-breaking-reporting-about-protest-utter-vector-concept_53562-17056.jpg",
-    tags: ["Python", "NLP", "Pytorch", "Keras", "BERT", "Flask"],
+    tags: ["Python", "NLP", "BERT"],
     category: "machine learning",
     github: "https://github.com/Viru9029/AI-Based-Humanoid-Broadcaster",
-    webapp: "https://github.com/Viru9029/AI-Based-Humanoid-Broadcaster",
   },
   {
     id: 7,
-    title: "CareerFit-Analyzer",
-    description:
-      "Generative AI solution featuring ATS checks, resume analysis, and chat with PDF to improve job applications.",
-    image: "https://builtin.com/cdn-cgi/image/f=auto,quality=80,width=752,height=435/https://builtin.com/sites/www.builtin.com/files/styles/byline_image/public/2023-08/ai-assistant_0.jpg",
-    tags: ["Python", "Google Gemini", "Generative AI", "Streamlit", "SqlLite", "Langchain", "NLP"],
+    title: "CareerFit Analyzer",
+    description: "Generative AI tool for ATS scoring and resume analysis.",
+    image: "https://builtin.com/sites/www.builtin.com/files/styles/byline_image/public/2023-08/ai-assistant_0.jpg",
+    tags: ["Python", "Generative AI", "Streamlit"],
     category: "generative ai",
     github: "https://github.com/Viru9029/CareerFit-Analyzer",
-    webapp: "https://github.com/Viru9029/CareerFit-Analyzer",
   },
   {
     id: 2,
-    title: "Footware-E-Commerce",
-    description:
-      "Golang backend APIs for an e-commerce platform built using Gin with authentication and MongoDB.",
+    title: "Footwear E-Commerce",
+    description: "Golang backend APIs for e-commerce platform.",
     image: "https://indian-retailer.s3.ap-south-1.amazonaws.com/s3fs-public/article5066.jpg",
-    tags: ["Golang", "Gin Framework", "API Development", "Authentication", "MongoDB"],
+    tags: ["Golang", "Gin", "MongoDB"],
     category: "web app",
     github: "https://github.com/Viru9029/Footware-E-Commerce",
-    webapp: "https://github.com/Viru9029/Footware-E-Commerce",
   },
 ];
 
@@ -199,5 +186,5 @@ export const TimeLineData = [
   { year: 2020, text: "Junior Engineer – SJ Contracts Pvt Ltd" },
   { year: 2022, text: "PG Diploma in Artificial Intelligence – C-DAC" },
   { year: 2022, text: "Joined IBM via Infinite Computer Solution" },
-  { year: 2025, text: "IBM Cloud PaaS – Dreadnought (OpenShift Platform)" },
+  { year: 2025, text: "IBM Cloud PaaS – Dreadnought" },
 ];
