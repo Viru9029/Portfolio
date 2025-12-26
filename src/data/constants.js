@@ -36,12 +36,12 @@ export const skills = [
     skills: [
       { name: "IBM Cloud", image: "https://upload.wikimedia.org/wikipedia/commons/5/51/IBM_logo.svg" },
       { name: "Kubernetes", image: "https://www.svgrepo.com/show/376331/kubernetes.svg" },
-      { name: "OpenShift (ROKS)", image: "https://www.svgrepo.com/show/354467/openshift.svg" },
+      { name: "OpenShift (ROKS)", image: "https://www.vectorlogo.zone/logos/openshift/openshift-icon.svg" },
       { name: "Docker", image: "https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg" },
       { name: "IBM OnePipeline", image: "https://upload.wikimedia.org/wikipedia/commons/5/51/IBM_logo.svg" },
       { name: "Tekton", image: "https://raw.githubusercontent.com/cncf/artwork/master/projects/tekton/icon/color/tekton-icon-color.svg" },
       { name: "Jenkins", image: "https://www.svgrepo.com/show/353929/jenkins.svg" },
-      { name: "PagerDuty", image: "https://upload.wikimedia.org/wikipedia/commons/0/0a/PagerDuty_logo.svg" },
+      { name: "PagerDuty", image: "https://www.vectorlogo.zone/logos/pagerduty/pagerduty-icon.svg" },
     ],
   },
   {
