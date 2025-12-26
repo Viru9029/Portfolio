@@ -105,6 +105,105 @@ export const experiences = [
   },
 ];
 
+export const projects = [
+
+  {
+    id: 6,
+    title: "SkinVision App",
+    date: "Description:",
+    description:
+    "SkinVision App is a groundbreaking Streamlit app leveraging the power of AI to swiftly identify various skin diseases with just the upload of an image depicting the affected area. By simply uploading the image and clicking on the 'Proceed to Detection' button, you can swiftly obtain accurate diagnoses. The app not only detects the disease but also furnishes comprehensive information including symptoms, precautions, and available treatments",
+    image:
+      "https://www.dermengine.com/hs-fs/hubfs/DE%20Blog%20CTA%20Articles/DermEngine%20Evolution%20Tracker%20Doctor.png?width=767&height=682&name=DermEngine%20Evolution%20Tracker%20Doctor.png",
+    tags: ["Google API Key", "Python", "Streamlit", "Deep Learning", "Generative Models"],
+    category: "generative ai",
+    github: "https://github.com/Viru9029/SkinVision-AI",
+    webapp: "https://skinvision-ai.streamlit.app/",
+  },
+  {
+    id: 5,
+    title: "WeatherSnap",
+    date: "Description:",
+    description:
+        "The WeatherSnap is a user-friendly application that provides accurate weather information for any location worldwide. With a clean and intuitive interface, users can quickly check the current weather conditions, including temperature, humidity, wind speed, and more. Whether planning for a trip, organizing outdoor activities, or simply staying informed about the weather, this app offers a convenient way to access up-to-date weather data.",
+    image:
+      "https://img.pikbest.com/templates/20211121/bg/0e1b29f5c2423708338dd4e3a17f35eb_117851.png!w700wp",
+    tags: ["React Js", "API", "Github", "Google Auth"],
+    category: "web app",
+    github: "https://github.com/Viru9029/WeatherSnap",
+    webapp: "https://viru9029.github.io/WeatherSnap/",
+  },
+  {
+    id: 4,
+    title: "BrainHealth-AI",
+    date: "Description:",
+    description:
+      "BrainHealth AI is a cutting-edge project dedicated to the detection and analysis of brain tumors using advanced AI technology. Our platform offers efficient and accurate tumor detection, aiding medical professionals in early diagnosis and treatment planning. Join us in advancing brain health through innovation and technology",
+    image:
+      "https://assets.technologynetworks.com/production/dynamic/images/content/354432/early-detection-of-brain-tumors-and-beyond-354432-960x540.jpg?cb=11900964",
+    tags: [
+      "Python",
+      "Deep Learning",
+      "VGG16",
+      "Keras",
+      "Image Classification",
+      "Flask",
+    ],
+    category: "machine learning",
+    github: "https://github.com/Viru9029/BrainHealth-AI",
+    webapp: "https://github.com/Viru9029/BrainHealth-AI",
+  },
+  {
+    id: 3,
+    title: "AI-Based-Humanoid-Broadcaster",
+    date: "Description:",
+    description:
+        "The AI-Based-Humanoid-Broadcaster project focuses on developing humanoid broadcasters utilizing Natural Language Processing (NLP) techniques to assist in providing summaries of news articles. With the help of this project, readers can easily obtain summarized short news articles.",
+    image:
+        "https://img.freepik.com/premium-vector/live-news-cartoon-tv-broadcast-sport-fans-journalist-interview-television-media-studio-breaking-reporting-about-protest-utter-vector-concept_53562-17056.jpg",
+    tags: ["Python", "NLP", "Pytorch", "Keras", "BERT","Flask"],
+    category: "machine learning",
+    github: "https://github.com/Viru9029/AI-Based-Humanoid-Broadcaster",
+    webapp: "https://github.com/Viru9029/AI-Based-Humanoid-Broadcaster",
+  },
+  {
+    id: 7,
+    title: "CareerFit-Analyzer",
+    date: "Description:",
+    description:
+    "Addressing the challenge faced by college-level students in optimizing their job applications, this project aims to develop an AI based solution utilizing Generative AI. Enhances student productivity with features such as 'ATS', 'Resume Analyzer', and 'Chat with PDF'",
+    image:
+      "https://builtin.com/cdn-cgi/image/f=auto,quality=80,width=752,height=435/https://builtin.com/sites/www.builtin.com/files/styles/byline_image/public/2023-08/ai-assistant_0.jpg",
+    tags: [
+      "Python",
+      "Google Gemini",
+      "Generative AI",
+      "Streamlit",
+      "SqlLite",
+      "Langchain",
+      "NLP",
+    ],
+    category: "generative ai",
+    github: "https://github.com/Viru9029/CareerFit-Analyzer",
+    webapp: "https://github.com/Viru9029/CareerFit-Analyzer",
+  },
+
+  {
+    id: 2,
+    title: "Footware-E-Commerce",
+    date: "Description:",
+    description:
+      "Footware-E-Commerce is a backend project developed using the Gin framework in Go(lang) to create an E-commerce platform for footwear. It provides various APIs for user authentication, product management, and shopping cart functionalities.",
+    image:
+      "https://indian-retailer.s3.ap-south-1.amazonaws.com/s3fs-public/article5066.jpg",
+    tags: ["Golang", "Gin Framework", "API Development", "Authentication", "MongoDB"],
+    category: "web app",
+    github: "https://github.com/Viru9029/Footware-E-Commerce",
+    webapp: "https://github.com/Viru9029/Footware-E-Commerce",
+  },
+
+];
+
 /* ===================== EDUCATION ===================== */
 
 export const education = [
