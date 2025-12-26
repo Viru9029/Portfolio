@@ -12,7 +12,8 @@ export const Bio = {
   description:
     "Experienced Golang Developer with 3+ years of experience building and operating cloud-native applications and IBM Cloud PaaS services. Proven expertise in Golang microservices, REST/gRPC APIs (35+), and platform automation on Kubernetes/OpenShift (ROKS). Strong background in CI/CD automation using IBM OnePipeline, security scanning, observability, zero-downtime deployments, worker node orchestration, cluster health monitoring, and compliance automation. Actively involved in 24×7 SRE/on-call operations and PagerDuty.",
   github: "https://github.com/Viru9029",
-  resume: "https://drive.google.com/file/d/1UqS82sJvbxqM9H0TPJO0r1_-mW7i270O/view",
+  resume:
+    "https://drive.google.com/file/d/1UqS82sJvbxqM9H0TPJO0r1_-mW7i270O/view",
   linkedin: "https://www.linkedin.com/in/virendrakate/",
   email: "vbkate9@gmail.com",
 };
@@ -39,7 +40,7 @@ export const skills = [
       { name: "Kubernetes", image: "https://www.svgrepo.com/show/376331/kubernetes.svg" },
       { name: "OpenShift (ROKS)", image: `${publicUrl}/images/openshift-logo.jpg` },
       { name: "Docker", image: "https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg" },
-      { name: "IBM OnePipeline", image: "https://upload.wikimedia.org/wikipedia/commons/5/51/IBM_logo.svg" },
+      { name: "IBM OnePipeline", image: `${publicUrl}/images/ibm-onepipeline-logo.jpg` },
       { name: "Tekton", image: `${publicUrl}/images/ibm-onepipeline-logo.jpg` },
       { name: "Jenkins", image: "https://www.svgrepo.com/show/353929/jenkins.svg" },
       { name: "PagerDuty", image: `${publicUrl}/images/pagerduty-logo.jpg` },
@@ -68,12 +69,12 @@ export const experiences = [
     company: "IBM, Bengaluru, India",
     date: "Sep 2025 - Present",
     desc: `Project: Dreadnought (IBM Cloud PaaS)<br>
-    • Designed and developed <b>dreadnought-worker-updater (dn-updater)</b> for <b>Red Hat OpenShift (ROKS)</b> clusters enabling zero-downtime worker node patching.<br>
-    • Automated rolling worker node updates with pre/post cluster and service health validation.<br>
-    • Implemented health checks for cluster-proxy, DNS DaemonSet, node readiness, and core OpenShift components.<br>
-    • Designed PostgreSQL-backed orchestration to track update states in real time.<br>
-    • Integrated IBM Cloud App Configuration for one-click pause/resume across environments.<br>
-    • Enabled PagerDuty alerting supporting 24×7 SRE/on-call operations in PAG-secured clusters.`,
+    • Designed and developed <b>dreadnought-worker-updater (dn-updater)</b> enabling zero-downtime worker node patching on <b>OpenShift (ROKS)</b>.<br>
+    • Automated rolling worker updates with cluster and service health checks.<br>
+    • Implemented validation for cluster-proxy, DNS DaemonSet, node readiness, and core components.<br>
+    • Built PostgreSQL-backed orchestration for real-time update tracking.<br>
+    • Integrated IBM Cloud App Configuration for one-click pause/resume.<br>
+    • Enabled PagerDuty alerts supporting 24×7 SRE/on-call operations.`,
   },
   {
     id: 1,
@@ -82,11 +83,11 @@ export const experiences = [
     company: "IBM (Payroll: Infinite Computer Solution)",
     date: "Dec 2022 - Sep 2025",
     desc: `Project: Resource Metadata Services (RMDS)<br>
-    • Developed 35+ Golang REST/gRPC APIs serving metadata for IBM Cloud VSI and Bare Metal services.<br>
-    • Implemented JWT authentication, OpenAPI specs, and observability using LogDNA and Sysdig.<br>
+    • Developed 35+ Golang REST/gRPC APIs for IBM Cloud VSI and Bare Metal.<br>
+    • Implemented JWT auth, OpenAPI specs, and observability using Sysdig & LogDNA.<br>
     • Automated CI/CD using IBM OnePipeline, Docker, and Kubernetes.<br><br>
     Project: IaaS Security & Compliance Automation<br>
-    • Built Golang microservices automating security checks achieving 100% audit compliance.<br>
+    • Built Golang microservices achieving 100% audit compliance.<br>
     • Migrated Python workflows to Go improving performance by 60%.`,
   },
   {
@@ -106,15 +107,19 @@ export const education = [
     id: 0,
     img: `${publicUrl}/images/cdac-logo.jpg`,
     school: "Centre for Development of Advanced Computing (C-DAC), Noida",
-    date: "2022",
+    date: "Mar 2022 - Sep 2022",
+    grade: "Distinction",
     degree: "PG Diploma in Artificial Intelligence",
+    desc: "Hands-on experience in Python, Machine Learning, Deep Learning, NLP, Cloud Computing, Docker, Kubernetes, and CI/CD fundamentals.",
   },
   {
     id: 1,
     img: `${publicUrl}/images/sppu-logo.jpg`,
     school: "Savitribai Phule Pune University",
-    date: "2018 - 2021",
+    date: "Jun 2018 - Jun 2021",
+    grade: "First Class",
     degree: "Bachelor of Engineering",
+    desc: "Strong foundation in software engineering, databases, and problem-solving.",
   },
 ];
 
@@ -124,8 +129,10 @@ export const projects = [
   {
     id: 6,
     title: "SkinVision App",
-    description: "AI-powered Streamlit app for skin disease detection.",
-    image: "https://www.dermengine.com/hs-fs/hubfs/DE%20Blog%20CTA%20Articles/DermEngine%20Evolution%20Tracker%20Doctor.png",
+    description:
+      "AI-powered Streamlit app for skin disease detection with diagnosis guidance.",
+    image:
+      "https://www.dermengine.com/hs-fs/hubfs/DE%20Blog%20CTA%20Articles/DermEngine%20Evolution%20Tracker%20Doctor.png",
     tags: ["Python", "Streamlit", "Deep Learning", "Generative AI"],
     category: "generative ai",
     github: "https://github.com/Viru9029/SkinVision-AI",
@@ -135,7 +142,8 @@ export const projects = [
     id: 5,
     title: "WeatherSnap",
     description: "React-based real-time weather application.",
-    image: "https://img.pikbest.com/templates/20211121/bg/0e1b29f5c2423708338dd4e3a17f35eb_117851.png",
+    image:
+      "https://img.pikbest.com/templates/20211121/bg/0e1b29f5c2423708338dd4e3a17f35eb_117851.png",
     tags: ["React", "API"],
     category: "web app",
     github: "https://github.com/Viru9029/WeatherSnap",
@@ -145,7 +153,8 @@ export const projects = [
     id: 4,
     title: "BrainHealth-AI",
     description: "Deep learning system for brain tumor detection.",
-    image: "https://assets.technologynetworks.com/production/dynamic/images/content/354432/early-detection-of-brain-tumors-and-beyond-354432-960x540.jpg",
+    image:
+      "https://assets.technologynetworks.com/production/dynamic/images/content/354432/early-detection-of-brain-tumors-and-beyond-354432-960x540.jpg",
     tags: ["Python", "Deep Learning", "Keras"],
     category: "machine learning",
     github: "https://github.com/Viru9029/BrainHealth-AI",
@@ -154,7 +163,8 @@ export const projects = [
     id: 3,
     title: "AI-Based Humanoid Broadcaster",
     description: "NLP-based AI system for news summarization.",
-    image: "https://img.freepik.com/premium-vector/live-news-cartoon-tv-broadcast-sport-fans-journalist-interview-television-media-studio-breaking-reporting-about-protest-utter-vector-concept_53562-17056.jpg",
+    image:
+      "https://img.freepik.com/premium-vector/live-news-cartoon-tv-broadcast-sport-fans-journalist-interview-television-media-studio-breaking-reporting-about-protest-utter-vector-concept_53562-17056.jpg",
     tags: ["Python", "NLP", "BERT"],
     category: "machine learning",
     github: "https://github.com/Viru9029/AI-Based-Humanoid-Broadcaster",
@@ -163,7 +173,8 @@ export const projects = [
     id: 7,
     title: "CareerFit Analyzer",
     description: "Generative AI tool for ATS scoring and resume analysis.",
-    image: "https://builtin.com/sites/www.builtin.com/files/styles/byline_image/public/2023-08/ai-assistant_0.jpg",
+    image:
+      "https://builtin.com/sites/www.builtin.com/files/styles/byline_image/public/2023-08/ai-assistant_0.jpg",
     tags: ["Python", "Generative AI", "Streamlit"],
     category: "generative ai",
     github: "https://github.com/Viru9029/CareerFit-Analyzer",
@@ -171,8 +182,9 @@ export const projects = [
   {
     id: 2,
     title: "Footwear E-Commerce",
-    description: "Golang backend APIs for e-commerce platform.",
-    image: "https://indian-retailer.s3.ap-south-1.amazonaws.com/s3fs-public/article5066.jpg",
+    description: "Golang backend APIs for an e-commerce platform.",
+    image:
+      "https://indian-retailer.s3.ap-south-1.amazonaws.com/s3fs-public/article5066.jpg",
     tags: ["Golang", "Gin", "MongoDB"],
     category: "web app",
     github: "https://github.com/Viru9029/Footware-E-Commerce",
